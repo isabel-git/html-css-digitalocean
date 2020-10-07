@@ -5,16 +5,20 @@
   box-sizing: border-box;
 }
 
+li{
+  list-style-type: none;
+}
+
 /* regole di debug */
 [class*="col-"] {
-  min-height: 100px;
+  /* min-height: 100px; */
   /* background-color: pink; */
-  border: solid 1px  #000;
+  /* border: solid 1px  #000; */
 }
 
 [class*="col-"] > .row > [class*="col-"] {
-  background-color: lightgreen;
-  border-color:#fff;
+  /* background-color: lightgreen; */
+  /* border-color:#fff; */
 }
 /* fine debug */
 
@@ -31,7 +35,7 @@ header .navbar.navbar-default {
 }
 
 /* prima sezione dell'header */
-#jumbo{
+#my-jumbo{
   background-image: url(../img/jumbo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,37 +43,99 @@ header .navbar.navbar-default {
   margin-top: 50px;
 }
 
-/* seconda sezione dell'header */
-#logos{
-  background-color: lightgray;
-  /* #fafafa; */
+#my-jumbo-text{
+  color: white;
 }
 
-/* corpo della pagina */
-/* primo section */
+/* boostrap form */
+#my-form{
+  background-color: white;
+}
+
+header .blue-text{
+  color: blue;
+}
+
+header section .btn-default,
+header section .btn-primary{
+  width: 100%;
+}
+
+/* seconda sezione dell'header */
+#my-logos{
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+#my-hrz-line{
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+#my-hrz-line li{
+  margin-top: 5px;
+}
+
+/* REGOLE DEL MAIN */
 main section{
   /* min-height: 200px; */
 }
 
+/* primo section */
+#my-deploy-text{
+  text-align: center;
+}
+
 /* secondo section */
 #dev-a, #dev-b{
-  background-color: lightgray;
-  /* #fafafa; */
+  background-color: #f3f5f9;
+  text-align: center;
   /* min-height: 200px; */
 }
 
-/* quinto section */
-#table-blue{
-  background-color: blue;
+#dev-a img{
+  width: 100%;
 }
 
+/* quarto section */
+#my-features-text{
+  text-align: center;
+}
 
 /* quinto section */
+#my-table{
+  background-color: blue;
+  color: white;
+}
+
+#my-table-text{
+  text-align: center;
+}
+
+/* sesto section */
 #started{
   background-color: blue;
+  color: white;
+  text-align: center;
+  min-height: 200px;
+
+}
+
+#started .btn-default{
+  color: blue;
+  font-size: 20px;
 }
 
 /* FOOTER */
-  FOOTER{
-    background-color: darkblue;
-  }
+footer{
+  background-color: darkblue;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+/* @media screen and (min-widht: 1199px) {
+  
+} */
