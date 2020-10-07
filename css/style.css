@@ -8,12 +8,12 @@
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: pink;
+  /* background-color: pink; */
   border: solid 1px  #000;
 }
 
 [class*="col-"] > .row > [class*="col-"] {
-  background-color: salmon;
+  background-color: lightgreen;
   border-color:#fff;
 }
 /* fine debug */
@@ -42,11 +42,26 @@ header .navbar.navbar-default {
 /* seconda sezione dell'header */
 #logos{
   background-color: #fafafa;
-  min-height: 200px;
 }
 
 /* corpo della pagina */
+/* primo section */
 main section{
-  background-color: blue;
   min-height: 200px;
 }
+
+/* secondo section */
+#dev-a, #dev-b{
+  background-color: #fafafa;
+  min-height: 200px;
+}
+
+/* quinto section */
+#started{
+  background-color: blue;
+}
+
+/* FOOTER */
+  FOOTER{
+    background-color: darkblue;
+  }
