@@ -41,20 +41,28 @@ header .navbar.navbar-default {
 
 /* seconda sezione dell'header */
 #logos{
-  background-color: #fafafa;
+  background-color: lightgray;
+  /* #fafafa; */
 }
 
 /* corpo della pagina */
 /* primo section */
 main section{
-  min-height: 200px;
+  /* min-height: 200px; */
 }
 
 /* secondo section */
 #dev-a, #dev-b{
-  background-color: #fafafa;
-  min-height: 200px;
+  background-color: lightgray;
+  /* #fafafa; */
+  /* min-height: 200px; */
 }
+
+/* quinto section */
+#table-blue{
+  background-color: blue;
+}
+
 
 /* quinto section */
 #started{
