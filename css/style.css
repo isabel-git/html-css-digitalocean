@@ -17,3 +17,36 @@
   border-color:#fff;
 }
 /* fine debug */
+
+/* HEADER */
+/* nav */
+/* fixed */
+header .navbar.navbar-default {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
+  border: none;
+}
+
+/* prima sezione dell'header */
+#jumbo{
+  background-image: url(../img/jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  margin-top: 50px;
+}
+
+/* seconda sezione dell'header */
+#logos{
+  background-color: #fafafa;
+  min-height: 200px;
+}
+
+/* corpo della pagina */
+main section{
+  background-color: blue;
+  min-height: 200px;
+}
