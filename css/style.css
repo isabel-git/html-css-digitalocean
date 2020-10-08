@@ -55,10 +55,17 @@ header .navbar.navbar-default {
   background-size: cover;
   min-height: 500px;
   margin-top: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #my-jumbo-text{
   color: white;
+}
+
+#my-jumbo-text h1{
+  font-size: 60px;
+  font-weight: bold;
 }
 
 #my-jumbo .btn-block+.btn-block img{
@@ -81,10 +88,18 @@ header section .btn-primary{
 }
 
 /* seconda sezione dell'header */
+
 #my-logos{
   background-color: #f3f5f9;
 }
 
+/* padding */
+#my-logos,
+#my-deploy,
+#my-features{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 #my-hrz-line{
   border-left: 1px solid black;
   padding: 10px;
@@ -146,6 +161,8 @@ main section{
   background-color: rgba(3, 27, 78, 1);
   color: white;
   min-height: 300px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* quinto section */
@@ -159,20 +176,26 @@ main section{
   width: 80%;
   margin: auto;
   padding: 20px 0;
-} */
+}
 
 #dev-b img{
   min-width: 15%;
   margin: auto;
-}
+} */
 
 
 /* sesto section */
 #started{
   background-color: blue;
   color: white;
-  min-height: 200px;
+  /* min-height: 200px; */
+}
 
+/* padding */
+#started,
+footer{
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 #started .btn-default{
