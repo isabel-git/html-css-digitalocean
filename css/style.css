@@ -24,6 +24,20 @@ li{
 
 /* HEADER */
 /* nav */
+
+nav .container-fluid>.navbar-header{
+  width: 15%;
+}
+
+nav img{
+  width: 100%;
+}
+
+nav .btn-default{
+  color: blue;
+  border-color: blue;
+}
+
 /* fixed */
 header .navbar.navbar-default {
   position: fixed;
@@ -50,6 +64,7 @@ header .navbar.navbar-default {
 /* boostrap form */
 #my-form{
   background-color: white;
+  border-radius: 5px;
 }
 
 header .blue-text{
@@ -97,6 +112,20 @@ main section{
   width: 100%;
 }
 
+#dev-a .carousel-indicators .active,
+#dev-b .carousel-indicators .active{
+  background-color: blue;
+}
+
+.carousel-caption p{
+  color: blue;
+}
+
+
+#dev-a .carousel-indicators li{
+  border: 1px solid blue;
+}
+
 /* quarto section */
 #my-features-text{
   text-align: center;
@@ -137,5 +166,5 @@ footer a{
 }
 
 /* @media screen and (min-widht: 1199px) {
-  
+
 } */
