@@ -61,6 +61,10 @@ header .navbar.navbar-default {
   color: white;
 }
 
+#my-jumbo .btn-block+.btn-block img{
+  width: 5%;
+}
+
 /* boostrap form */
 #my-form{
   background-color: white;
@@ -79,7 +83,6 @@ header section .btn-primary{
 /* seconda sezione dell'header */
 #my-logos{
   background-color: #f3f5f9;
-  text-align: center;
 }
 
 #my-hrz-line{
@@ -97,55 +100,71 @@ main section{
 }
 
 /* primo section */
-#my-deploy-text{
-  text-align: center;
+#my-deploy{
+
 }
 
 /* secondo section */
 #dev-a, #dev-b{
   background-color: #f3f5f9;
-  text-align: center;
   /* min-height: 200px; */
+}
+
+/* palline */
+#dev-a .carousel-indicators .active,
+#dev-b .carousel-indicators .active{
+  background-color: blue;
+}
+
+#dev-a .carousel-indicators li,
+#dev-b .carousel-indicators li{
+  border: 1px solid blue;
 }
 
 #dev-a img{
   width: 100%;
 }
 
-#dev-a .carousel-indicators .active,
-#dev-b .carousel-indicators .active{
-  background-color: blue;
-}
 
-.carousel-caption p{
+#dev-a .carousel-caption p{
   color: blue;
 }
 
 
-#dev-a .carousel-indicators li{
-  border: 1px solid blue;
+/* terzo section */
+#my-features{
+
 }
 
 /* quarto section */
-#my-features-text{
-  text-align: center;
-}
-
-/* quinto section */
 #my-table{
   background-color: blue;
   color: white;
 }
 
-#my-table-text{
-  text-align: center;
+/* quinto section */
+#dev-b .item{
+  min-height: 250px;
+  background-color: orange;
 }
+
+/* #dev-b .box{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+} */
+
+#dev-b img{
+  min-width: 15%;
+  margin: auto;
+}
+
 
 /* sesto section */
 #started{
   background-color: blue;
   color: white;
-  text-align: center;
   min-height: 200px;
 
 }
