@@ -30,7 +30,7 @@ nav .container-fluid>.navbar-header{
 }
 
 nav img{
-  width: 100%;
+  width: 80%;
 }
 
 nav .btn-default{
@@ -88,6 +88,8 @@ header section .btn-primary{
 #my-hrz-line{
   border-left: 1px solid black;
   padding: 10px;
+  width: 40%;
+  margin: auto;
 }
 
 #my-hrz-line li{
@@ -138,8 +140,12 @@ main section{
 
 /* quarto section */
 #my-table{
-  background-color: blue;
+  background-image: url(../img/map.svg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(3, 27, 78, 1);
   color: white;
+  min-height: 300px;
 }
 
 /* quinto section */
@@ -184,6 +190,8 @@ footer a{
   color: white;
 }
 
-/* @media screen and (min-widht: 1199px) {
-
-} */
+@media all and (min-width: 992px) {
+  .lgcentr{
+    padding: 0 100px;
+  }
+}
