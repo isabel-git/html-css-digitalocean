@@ -24,18 +24,29 @@ li{
 
 /* HEADER */
 /* nav */
-
-nav .container-fluid>.navbar-header{
-  width: 15%;
+.my-logo img{
+  width: 100px;
 }
 
-nav img{
-  width: 80%;
+.navbar-default .navbar-nav>li>a {
+  color: #031b4e;
+}
+
+/* hover li */
+.navbar-default .navbar-nav>li>a:hover{
+  color: blue;
 }
 
 nav .btn-default{
   color: blue;
   border-color: blue;
+}
+
+/* hover button */
+nav .btn-default:hover{
+  background-color: blue;
+  color: white;
+  border-color: white;
 }
 
 /* fixed */
@@ -46,6 +57,8 @@ header .navbar.navbar-default {
   width: 100%;
   z-index: 900;
   border: none;
+  /* background */
+  background-color: white;
 }
 
 /* prima sezione dell'header */
