@@ -49,10 +49,15 @@ header .navbar.navbar-default {
 }
 
 /* prima sezione dell'header */
-#my-jumbo{
+/* background */
+#my-jumbo,
+#started{
   background-image: url(../img/jumbo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#my-jumbo{
   min-height: 500px;
   margin-top: 50px;
   padding-top: 5%;
@@ -88,7 +93,6 @@ header section .btn-primary{
 }
 
 /* seconda sezione dell'header */
-
 #my-logos{
   background-color: #f3f5f9;
 }
@@ -127,25 +131,37 @@ main section{
   /* min-height: 200px; */
 }
 
-/* palline */
 #dev-a .carousel-indicators .active,
 #dev-b .carousel-indicators .active{
   background-color: blue;
+}
+
+#dev-a .my-box,
+#dev-b .my-box{
+  width: 50%;
+  color: blue;
+  margin: auto;
+  margin-bottom: 5%;
+  min-height: 200px;
+  padding: 20px 0;
+}
+
+#dev-a img{
+  width: 100%
+}
+
+/* proprieta palline */
+.my-carousel .carousel-control{
+  background: none;
+  color: blue;
 }
 
 #dev-a .carousel-indicators li,
 #dev-b .carousel-indicators li{
   border: 1px solid blue;
 }
+/* fine palline */
 
-#dev-a img{
-  width: 100%;
-}
-
-
-#dev-a .carousel-caption p{
-  color: blue;
-}
 
 
 /* terzo section */
@@ -166,23 +182,21 @@ main section{
 }
 
 /* quinto section */
-#dev-b .item{
-  min-height: 250px;
-  background-color: orange;
-}
-
-/* #dev-b .box{
+#dev-b .my-box{
   background-color: white;
-  width: 80%;
-  margin: auto;
-  padding: 20px 0;
+  border-radius: 5px;
+  border: #e5e8ed;
 }
 
 #dev-b img{
-  min-width: 15%;
-  margin: auto;
-} */
+  width: 40%;
+  margin-bottom: 20px;
+}
 
+#dev-b .dev-b-text{
+  color: gray;
+  padding: 3% 0;
+}
 
 /* sesto section */
 #started{
@@ -213,7 +227,31 @@ footer a{
   color: white;
 }
 
+/* ---- mobile ---- */
+@media all and (max-width: 778px){
+  /*  horizontal line  */
+  #my-hrz-line{
+    width: 100%;
+  }
+
+  /* carousel */
+  #dev-a .my-box,
+  #dev-b .my-box{
+    width: 100%;
+  }
+}
+
+/* ---- tablet ---- */
+@media all and (min-width: 778px){
+  /*  horizontal line  */
+  #my-hrz-line{
+    width: 100%;
+  }
+}
+
+/* ---- desktop ---- */
 @media all and (min-width: 992px) {
+  /* centratura lg */
   .lgcentr{
     padding: 0 100px;
   }
