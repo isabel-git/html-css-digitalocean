@@ -72,9 +72,9 @@ header .navbar.navbar-default {
 
 #my-jumbo{
   min-height: 500px;
-  margin-top: 50px;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  margin-top: 50px !important;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
 }
 
 #my-jumbo-text{
@@ -114,18 +114,18 @@ header section .btn-primary{
 #my-logos,
 #my-deploy,
 #my-features{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
 }
 #my-hrz-line{
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 10px !important;
   width: 40%;
   margin: auto;
 }
 
 #my-hrz-line li{
-  margin-top: 5px;
+  margin-top: 5px !important;
 }
 
 /* REGOLE DEL MAIN */
@@ -134,8 +134,8 @@ main section{
 }
 
 /* primo section */
-#my-deploy{
-
+#my-deploy-text{
+  margin-bottom: 50px !important;
 }
 
 /* secondo section */
@@ -154,9 +154,9 @@ main section{
   width: 50%;
   color: blue;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 5% !important;
   min-height: 200px;
-  padding: 20px 0;
+  padding: 20px 0 !important;
 }
 
 #dev-a img{
@@ -165,8 +165,8 @@ main section{
 
 /* proprieta palline */
 .my-carousel .carousel-control{
-  background: none;
-  color: blue;
+  background: none !important;
+  color: blue !important;
 }
 
 #dev-a .carousel-indicators li,
@@ -178,8 +178,8 @@ main section{
 
 
 /* terzo section */
-#my-features{
-
+#my-features-text{
+  margin-bottom: 40px !important;
 }
 
 /* quarto section */
@@ -190,8 +190,8 @@ main section{
   background-color: rgba(3, 27, 78, 1);
   color: white;
   min-height: 300px;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
 }
 
 /* quinto section */
@@ -203,12 +203,12 @@ main section{
 
 #dev-b img{
   width: 40%;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 #dev-b .dev-b-text{
   color: gray;
-  padding: 3% 0;
+  padding: 3% 0 !important;
 }
 
 /* sesto section */
@@ -221,8 +221,8 @@ main section{
 /* padding */
 #started,
 footer{
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 4% !important;
+  padding-bottom: 4% !important;
 }
 
 #started .btn-default{
@@ -242,6 +242,10 @@ footer a{
 
 /* ---- mobile ---- */
 @media all and (max-width: 778px){
+  #my-logos a{
+    width: 50%;
+  }
+
   /*  horizontal line  */
   #my-hrz-line{
     width: 100%;
@@ -266,6 +270,6 @@ footer a{
 @media all and (min-width: 992px) {
   /* centratura lg */
   .lgcentr{
-    padding: 0 100px;
+    padding: 0 100px !important;
   }
 }
